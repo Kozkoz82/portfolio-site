@@ -2723,18 +2723,6 @@ td:last-child {
 }
 
 .text-huge-title {
-    --text-huge       : 9.4rem;
-    --text-multiplier : 1;
-    font-family       : var(--font-2);
-    font-weight       : 400;
-    font-size         : calc(var(--text-huge) * var(--text-multiplier));
-    line-height       : 1.0638;
-    letter-spacing    : -0.02em;
-    color             : var(--color-text-dark);
-    margin-top        : 0;
-}
-
-.text-big-title {
     --text-huge       : 6.3rem;
     --text-multiplier : 1;
     font-family       : var(--font-2);
