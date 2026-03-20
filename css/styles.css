@@ -2734,6 +2734,18 @@ td:last-child {
     margin-top        : 0;
 }
 
+.text-big-title {
+    --text-huge       : 6.3rem;
+    --text-multiplier : 1;
+    font-family       : var(--font-2);
+    font-weight       : 400;
+    font-size         : calc(var(--text-huge) * var(--text-multiplier));
+    line-height       : 1.0638;
+    letter-spacing    : -0.02em;
+    color             : var(--color-text-dark);
+    margin-top        : 0;
+}
+
 .text-subtitle {
     font-family    : var(--font-1);
     font-size      : var(--text-size);
@@ -3631,7 +3643,7 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 .s-works {
     padding-top      : calc(6 * var(--space));
-    padding-bottom   : calc(5.5 * var(--space));
+    padding-bottom   : calc(1 * var(--space));
     background-color : white;
 }
 
@@ -3983,7 +3995,7 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-footer {
-    padding-top    : calc(6 * var(--space));
+    padding-top    : calc(5.1 * var(--space));
     padding-bottom : var(--vspace-2_5);
     font-weight    : 300;
     position       : relative;
@@ -4013,7 +4025,7 @@ img.u-pull-left {
 }
 
 .s-footer__contact-header {
-    margin-bottom : var(--vspace-2);
+    margin-bottom : var(--vspace-0_25);
 }
 
 .s-footer__contact-content .left-block {
